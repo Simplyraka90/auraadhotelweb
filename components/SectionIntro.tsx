@@ -1,0 +1,1 @@
+export default function SectionIntro({label,title,description}:{label:string;title:string;description?:string}){return <div className="text-center max-w-2xl mx-auto mb-12"><p className="eyebrow">{label}</p><h2 className="text-4xl sm:text-5xl mt-3">{title}</h2>{description&&<p className="muted mt-5 leading-7">{description}</p>}</div>}

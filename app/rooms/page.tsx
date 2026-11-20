@@ -1,0 +1,1 @@
+import RoomCards from '@/components/RoomCards';import SectionIntro from '@/components/SectionIntro';export default function Rooms(){return <main className="section wrap"><SectionIntro label="The collection" title="Rooms & Suites" description="Explore our signature accommodations. Prices and availability are demonstration values."/><RoomCards/></main>}
